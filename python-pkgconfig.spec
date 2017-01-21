@@ -4,17 +4,18 @@
 #
 Name     : python-pkgconfig
 Version  : 1.1.0
-Release  : 3
+Release  : 4
 URL      : https://pypi.python.org/packages/87/35/4af9634270c00e3411cf951b7e0ea796c262922357cfc7609a86d31f072b/pkgconfig-1.1.0.tar.gz
 Source0  : https://pypi.python.org/packages/87/35/4af9634270c00e3411cf951b7e0ea796c262922357cfc7609a86d31f072b/pkgconfig-1.1.0.tar.gz
 Summary  : Interface Python with pkg-config
 Group    : Development/Tools
 License  : MIT
 Requires: python-pkgconfig-python
-BuildRequires : nose-python
+BuildRequires : nose
 BuildRequires : pbr
 BuildRequires : pip
 BuildRequires : python-dev
+BuildRequires : python3-dev
 BuildRequires : setuptools
 
 %description
@@ -35,11 +36,16 @@ python components for the python-pkgconfig package.
 %setup -q -n pkgconfig-1.1.0
 
 %build
+export LANG=C
+export SOURCE_DATE_EPOCH=1485028875
 python2 setup.py build -b py2
+python3 setup.py build -b py3
 
 %install
+export SOURCE_DATE_EPOCH=1485028875
 rm -rf %{buildroot}
-python2 -tt setup.py build -b py2 install --root=%{buildroot}
+python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
+python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
 
 %files
 %defattr(-,root,root,-)
