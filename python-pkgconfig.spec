@@ -4,7 +4,7 @@
 #
 Name     : python-pkgconfig
 Version  : 1.1.0
-Release  : 4
+Release  : 5
 URL      : https://pypi.python.org/packages/87/35/4af9634270c00e3411cf951b7e0ea796c262922357cfc7609a86d31f072b/pkgconfig-1.1.0.tar.gz
 Source0  : https://pypi.python.org/packages/87/35/4af9634270c00e3411cf951b7e0ea796c262922357cfc7609a86d31f072b/pkgconfig-1.1.0.tar.gz
 Summary  : Interface Python with pkg-config
