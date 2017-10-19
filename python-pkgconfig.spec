@@ -4,7 +4,7 @@
 #
 Name     : python-pkgconfig
 Version  : 1.2.2
-Release  : 9
+Release  : 10
 URL      : https://pypi.debian.net/pkgconfig/pkgconfig-1.2.2.tar.gz
 Source0  : https://pypi.debian.net/pkgconfig/pkgconfig-1.2.2.tar.gz
 Summary  : Interface Python with pkg-config
