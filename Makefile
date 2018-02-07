@@ -1,5 +1,5 @@
 PKG_NAME := python-pkgconfig
-URL := https://pypi.debian.net/pkgconfig/pkgconfig-1.2.2.tar.gz
-
+URL = https://pypi.debian.net/pkgconfig/pkgconfig-1.3.1.tar.gz
+ARCHIVES = 
 
 include ../common/Makefile.common
