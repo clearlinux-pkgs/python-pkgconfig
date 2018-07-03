@@ -4,7 +4,7 @@
 #
 Name     : python-pkgconfig
 Version  : 1.3.1
-Release  : 20
+Release  : 21
 URL      : https://pypi.debian.net/pkgconfig/pkgconfig-1.3.1.tar.gz
 Source0  : https://pypi.debian.net/pkgconfig/pkgconfig-1.3.1.tar.gz
 Summary  : Interface Python with pkg-config
