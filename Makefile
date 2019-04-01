@@ -1,5 +1,5 @@
 PKG_NAME := python-pkgconfig
-URL = https://files.pythonhosted.org/packages/17/b7/b6e2b5798eeadb6bfbebf6c332c8989463166769815f74d6e87ed9951f61/pkgconfig-1.4.0.tar.gz
+URL = https://files.pythonhosted.org/packages/43/44/0eda08389fbf1c66b6c63f072bdfc043c90504a4aedb5d2bc6f9b3921db9/pkgconfig-1.5.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
