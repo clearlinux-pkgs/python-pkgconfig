@@ -4,10 +4,10 @@
 #
 Name     : python-pkgconfig
 Version  : 1.5.1
-Release  : 31
+Release  : 32
 URL      : https://files.pythonhosted.org/packages/6e/a9/ff67ef67217dfdf2aca847685fe789f82b931a6957a3deac861297585db6/pkgconfig-1.5.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/6e/a9/ff67ef67217dfdf2aca847685fe789f82b931a6957a3deac861297585db6/pkgconfig-1.5.1.tar.gz
-Summary  : Python module to interface with the pkg-config command line tool
+Summary  : Interface Python with pkg-config
 Group    : Development/Tools
 License  : MIT
 Requires: python-pkgconfig-license = %{version}-%{release}
@@ -42,6 +42,7 @@ python components for the python-pkgconfig package.
 Summary: python3 components for the python-pkgconfig package.
 Group: Default
 Requires: python3-core
+Provides: pypi(pkgconfig)
 
 %description python3
 python3 components for the python-pkgconfig package.
@@ -56,8 +57,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1583214428
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1583704292
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$CFLAGS -fno-lto "
