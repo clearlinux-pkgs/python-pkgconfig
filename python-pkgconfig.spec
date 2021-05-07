@@ -4,7 +4,7 @@
 #
 Name     : python-pkgconfig
 Version  : 1.5.2
-Release  : 41
+Release  : 42
 URL      : https://files.pythonhosted.org/packages/ae/61/5a76ead90f9a62212c231b05231031e750f24e4dd2401d8c7f3f0527821b/pkgconfig-1.5.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ae/61/5a76ead90f9a62212c231b05231031e750f24e4dd2401d8c7f3f0527821b/pkgconfig-1.5.2.tar.gz
 Summary  : Interface Python with pkg-config
